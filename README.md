@@ -1,1 +1,3 @@
-# Recu_TP_AySO
+Nombre: Genesis Vegas
+Comisión: 116
+Turno: Mañana
