@@ -1,0 +1,284 @@
+ssh-keygen~
+ssh-keygen
+cd 
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+sudo apt install git
+git --vesion
+git clone git@github.com:Genesis-V13/TP_AySO.git
+cp README
+exit
+history
+pwd
+ls
+cd
+cd README
+ls -la
+exit
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+./UTN-FRA_SO_Examenes/script_Precondicion.sh
+git clone git@github.com:Genesis-V13/Recu_TP_AySO.git
+cd Recu_TP_AySO
+mkdir -p
+tree
+apt  install tree
+[200~apt  install tree  # version 2.0.2-1
+~apt  install tree  # version 2.0.2-1
+clean
+cleon
+clion
+tree
+tree --version
+choco install tree
+exit
+tree
+snap install tree  # version 2.1.3+pkg-5852
+sudo snap install tree  # version 2.1.3+pkg-5852
+tree
+clean}
+clean
+cd Recu_TP_AySO
+mkdir -p
+./UTN-FRA_SO_Examenes/script_Precondicion.sh
+/UTN-FRA_SO_Examenes/script_Precondicion.sh
+echo -e "Nombre: Juan Pérez\nComisión: 1K5\nTurno: Noche" > README.md
+echo -e "Nombre: Genesis Vegas\nComisión: 117\nTurno: Mañana" > README.md
+estudiante@DESKTOP-0NDP396 MINGW64 /c/SO/repogit/UTN-FRA_SO_Vagrant-master/UTN-FRA_SO_Vagrant-master/VagrantFiles/1_equipo
+$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/jammy64' version '20241002.0.0' is up to date...
+==> default: Clearing any previously set forwarded ports...
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+==> default: Forwarding ports...
+==> default: Running 'pre-boot' VM customizations...
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+==> default: Setting hostname...
+==> default: Configuring and enabling network interfaces...
+==> default: Mounting shared folders...
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> default: flag to force provisioning. Provisioners marked to run always will still run.
+==> default: Machine 'default' has a post `vagrant up` message. This is a message
+==> default: from the creator of the Vagrantfile, and not from Vagrant itself:
+==> default:
+==> default:   ###########################################################################
+==> default:   #
+==> default:   # Para Ingresar a la VM puede usar cualquiera de las dos opciones:
+==> default:   #
+==> default:   ###########################################################################
+==> default:   # 1. (usar Vagrant)
+==> default:
+==> default:   vagrant ssh
+==> default:
+==> default:   # 2. Usar SSH indicando la key Privada
+==> default:   # Puede usar la private_key proporcionada por vagrant
+==> default:
+==> default:   ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@192.168.56.2
+==> default:
+estudiante@DESKTOP-0NDP396 MINGW64 /c/SO/repogit/UTN-FRA_SO_Vagrant-master/UTN-FRA_SO_Vagrant-master/VagrantFiles/1_equipo
+$ vagrant ssh
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-140-generic x86_64)
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+vagrant@VMPruebas:~$ cd Recu_TP_AySO
+vagrant@VMPruebas:~/Recu_TP_AySO$ mkdir -p
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+vagrant@VMPruebas:~/Recu_TP_AySO$ tree
+Command 'tree' not found, but can be installed with:
+snap install tree  # version 2.1.3+pkg-5852, or
+apt  install tree  # version 2.0.2-1
+See 'snap info tree' for additional versions.
+vagrant@VMPruebas:~/Recu_TP_AySO$ tree
+Command 'tree' not found, but can be installed with:
+snap install tree  # version 2.1.3+pkg-5852, or
+estudiante@DESKTOP-0NDP396 MINGW64 /c/SO/repogit/UTN-FRA_SO_Vagrant-master/UTN-FRA_SO_Vagrant-master/VagrantFiles/1_equipo
+$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/jammy64' version '20241002.0.0' is up to date...
+==> default: Clearing any previously set forwarded ports...
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+==> default: Forwarding ports...
+==> default: Running 'pre-boot' VM customizations...
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+==> default: Setting hostname...
+==> default: Configuring and enabling network interfaces...
+==> default: Mounting shared folders...
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> default: flag to force provisioning. Provisioners marked to run always will still run.
+==> default: Machine 'default' has a post `vagrant up` message. This is a message
+==> default: from the creator of the Vagrantfile, and not from Vagrant itself:
+==> default:
+==> default:   ###########################################################################
+==> default:   #
+==> default:   # Para Ingresar a la VM puede usar cualquiera de las dos opciones:
+==> default:   #
+==> default:   ###########################################################################
+==> default:   # 1. (usar Vagrant)
+==> default:
+==> default:   vagrant ssh
+==> default:
+==> default:   # 2. Usar SSH indicando la key Privada
+==> default:   # Puede usar la private_key proporcionada por vagrant
+==> default:
+==> default:   ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@192.168.56.2
+==> default:
+estudiante@DESKTOP-0NDP396 MINGW64 /c/SO/repogit/UTN-FRA_SO_Vagrant-master/UTN-FRA_SO_Vagrant-master/VagrantFiles/1_equipo
+$ vagrant ssh
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-140-generic x86_64)
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+vagrant@VMPruebas:~$ cd Recu_TP_AySO
+vagrant@VMPruebas:~/Recu_TP_AySO$ mkdir -p
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+vagrant@VMPruebas:~/Recu_TP_AySO$ tree
+Command 'tree' not found, but can be installed with:
+snap install tree  # version 2.1.3+pkg-5852, or
+apt  install tree  # version 2.0.2-1
+See 'snap info tree' for additional versions.
+vagrant@VMPruebas:~/Recu_TP_AySO$ tree
+Command 'tree' not found, but can be installed with:
+snap install tree  # version 2.1.3+pkg-5852, or
+apt  install tree  # version 2.0.2-1
+See 'snap info tree' for additional versions.
+vagrant@VMPruebas:~/Recu_TP_AySO$ apt  install tree
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+vagrant@VMPruebas:~/Recu_TP_AySO$ [200~apt  install tree  # version 2.0.2-1
+[200~apt: command not found
+vagrant@VMPruebas:~/Recu_TP_AySO$ ~apt  install tree  # version 2.0.2-1
+Command '~apt' not found, did you mean:
+Try: apt install <deb name>
+vagrant@VMPruebas:~/Recu_TP_AySO$ clean
+Command 'clean' not found, did you mean:
+Try: apt install <deb name>
+vagrant@VMPruebas:~/Recu_TP_AySO$ clean
+Command 'clean' not found, did you mean:
+Try: apt install <deb name>
+vagrant@VMPruebas:~/Recu_TP_AySO$ cleon
+Command 'cleon' not found, did you mean:
+See 'snap info <snapname>' for additional versions.
+vagrant@VMPruebas:~/Recu_TP_AySO$ clion
+Command 'clion' not found, but can be installed with:
+snap install clion
+Please ask your administrator.
+vagrant@VMPruebas:~/Recu_TP_AySO$ tree
+Command 'tree' not found, but can be installed with:
+snap install tree  # version 2.1.3+pkg-5852, or
+apt  install tree  # version 2.0.2-1
+See 'snap info tree' for additional versions.
+vagrant@VMPruebas:~/Recu_TP_AySO$ tree --version
+Command 'tree' not found, but can be installed with:
+snap install tree  # version 2.1.3+pkg-5852, or
+apt  install tree  # version 2.0.2-1
+See 'snap info tree' for additional versions.
+vagrant@VMPruebas:~/Recu_TP_AySO$ choco install tree
+choco: command not found
+vagrant@VMPruebas:~/Recu_TP_AySO$ exit
+logout
+cd Recu_TP_AySO
+echo -e "Nombre: Genesis Vegas\nComisión: 116\nTurno: Mañana" > README.md
+echo 'sudo mkdir -p /a/b/{c,d}' > Punto_A.sh
+chmod +x Punto_A.sh
+./Punto_A.sh
+git add Punto_A.sh
+git commit -m "ADD: Punto A"
+git push
+git add README.md
+git commit -m "ADD: README con datos del alumno"
+git config --global "genesisvega.az@gmail.com"
+git config --global user.name "Genesis Vegas"
+git push
+echo -e "Nombre: Genesis\nApellido: Vega\nComisión: 117\nTurno: Mañana" > README.md
+git push
+echo 'sudo mkdir -p /estructura/{carpeta1,carpeta2,carpeta3}' > Punto_A.sh
+chmod +x Punto_A.sh
+./Punto_A.sh
+git add Punto_A.sh
+git commit -m "ADD: Punto A"
+git push
+echo '
+sudo groupadd p1c1_2024_g1
+sudo useradd -m -G p1c1_2024_g1 -s /bin/bash p1c1_2024_u1
+echo "clave1" | sudo passwd --stdin p1c1_2024_u1
+
+sudo mkdir -p /datos
+sudo chown -R p1c1_2024_u1:p1c1_2024_g1 /datos
+sudo chmod -R 750 /datos
+
+sudo su -c "whoami > /datos/validar1.txt" p1c1_2024_u1
+' > Punto_B.sh
+chmod +x Punto_B.sh
+./Punto_B.sh
+git add Punto_B.sh
+git commit -m "ADD: Punto B"
+git push
+echo '
+sudo groupadd p1c1_2024_Todos
+sudo useradd -m -g p1c1_2024_Todos -s /bin/bash p1c1_2024_u2
+echo "clave1" | sudo passwd --stdin p1c1_2024_u2
+
+sudo usermod -aG p1c1_2024_Todos p1c1_2024_u1
+
+sudo chgrp -R p1c1_2024_Todos /datos
+sudo chmod -R g+w /datos
+sudo chmod o-x /datos
+
+sudo su -c "id >> /datos/validar1.txt" p1c1_2024_u2
+' > Punto_C.sh
+chmod +x Punto_C.sh
+./Punto_C.sh
+git add Punto_C.sh
+git commit -m "ADD: Punto C"
+git push
+echo '
+mkdir -p ~/Ejercicio_D/{rx,tx}
+for i in {1..20}; do
+  mkdir ~/Ejercicio_D/rx/lotes_$i
+  mkdir ~/Ejercicio_D/tx/lotes_$i
+done
+for i in {1..100}; do
+  mkdir ~/Ejercicio_D/rx/extras_$i
+done
+' > Punto_D.sh
+chmod +x Punto_D.sh
+./Punto_D.sh
+git add Punto_D.sh
+git commit -m "ADD: Punto D"
+git push
+echo '
+mkdir ~/Punto_E
+grep MemTotal /proc/meminfo > ~/Punto_E/Filtro_basico.txt
+grep -m1 "model name" /proc/cpuinfo >> ~/Punto_E/Filtro_basico.txt
+grep -m1 "cpu MHz" /proc/cpuinfo >> ~/Punto_E/Filtro_basico.txt
+' > Punto_E.sh
+chmod +x Punto_E.sh
+./Punto_E.sh
+git add Punto_E.sh
+git commit -m "ADD: Punto E"
+git push
+echo '
+mkdir ~/Punto_F
+echo "IP Pública: $(curl -s ifconfig.me)" > ~/Punto_F/Filtro_Avanzado.txt
+' > Punto_F.sh
+chmod +x Punto_F.sh
+./Punto_F.sh
+git add Punto_F.sh
+git commit -m "ADD: Punto F"
+git push
+history -a
