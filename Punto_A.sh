@@ -1,1 +1,1 @@
-sudo mkdir -p /estructura/{carpeta1,carpeta2,carpeta3}
+sudo mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}
