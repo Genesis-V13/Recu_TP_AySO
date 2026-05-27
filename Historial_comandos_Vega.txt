@@ -508,3 +508,13 @@ git commit -m "ADD: Archivo del Punto F completado"
 git push origin main
 # 1. Forzar la escritura de los comandos de esta sesion en el archivo oculto .bash_history
 history -a
+# 2. Copiar ese historial adentro de tu repositorio con tu apellido
+cp ~/.bash_history ./Historial_comandos_Vega.txt
+# 3. Sumar absolutamente todo lo que quede pendiente al proximo envio
+git add .
+# 4. Hacer el commit de cierre indicando tu apellido
+git commit -m "ADD: Historial de comandos de Vega"
+# 5. Mandar el empuje final a tu GitHub remoto
+git push origin main
+ 
+history -a
